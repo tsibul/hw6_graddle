@@ -6,7 +6,7 @@ public class GameStatistics {
     private HashMap<Integer, Boolean> gameStat;
 
     public GameStatistics() {
-        this.gameStat = new HashMap<Integer, Boolean>();
+        this.gameStat = new HashMap<>();
     }
 
 

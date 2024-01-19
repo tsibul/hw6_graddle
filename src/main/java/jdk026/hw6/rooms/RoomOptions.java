@@ -8,7 +8,7 @@ public class RoomOptions {
 
 
     public RoomOptions(Rooms rooms) {
-        this.roomOptions = new HashMap<Integer, Boolean>() {
+        this.roomOptions = new HashMap<>() {
             {
                 put(1, rooms.getRoomContent(1));
                 put(2, rooms.getRoomContent(2));
